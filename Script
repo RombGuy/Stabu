@@ -4,7 +4,7 @@ local Window = Library.CreateLib("RombW's GUI", "Ocean")
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
     
-    MainSection:NewButton("Basic Fly (UNPATCHED)", makes you fly", function()
+    MainSection:NewButton("Basic Fly (UNPATCHED)", "makes you fly", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RombGuy/Oscar/main/lua"))()
      
     MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
@@ -41,3 +41,6 @@ local Window = Library.CreateLib("RombW's GUI", "Ocean")
     LOCKsec:NewToggle("AIMLOCK W BOXES", "this is so good", function(state)
         if state then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RombGuy/boxlock/main/9asuJ1N5NmkU81N121Yy3Op7"))()
+end)
+end
+
