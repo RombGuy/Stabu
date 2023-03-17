@@ -3,6 +3,9 @@ local Window = Library.CreateLib("RombW's GUI", "Ocean")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
+    
+    MainSection:NewButton("Basic Fly (UNPATCHED)", makes you fly", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RombGuy/Oscar/main/lua"))()
      
     MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
         if state then
